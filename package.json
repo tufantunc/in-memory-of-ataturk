@@ -1,0 +1,32 @@
+{
+  "name": "in-memory-of-ataturk",
+  "version": "1.0.0",
+  "description": "Shows a quote from Ataturk after nodejs exit.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tufantunc/in-memory-of-ataturk.git"
+  },
+  "keywords": [
+    "quote",
+    "mustafa",
+    "kemal",
+    "ataturk"
+  ],
+  "author": {
+    "name": "Tufan Tunç",
+    "email": "tufan.tunc.91@gmail.com",
+    "url": "tufantunc.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tufantunc/in-memory-of-ataturk/issues"
+  },
+  "homepage": "https://github.com/tufantunc/in-memory-of-ataturk#readme"
+}

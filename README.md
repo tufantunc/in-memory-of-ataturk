@@ -1,4 +1,6 @@
-# in-memory-of-ataturk [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![twitter][twitter-badge]][twitter]
+# in-memory-of-ataturk [![Build status](https://ci.appveyor.com/api/projects/status/f6a6mo6p8bxlprum?svg=true)](https://ci.appveyor.com/project/tufantunc/in-memory-of-ataturk)
+
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![twitter][twitter-badge]][twitter]
 > Shows a quote from Ataturk after nodejs exit.
 
 ## Install

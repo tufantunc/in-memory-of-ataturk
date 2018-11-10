@@ -7,7 +7,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,16 @@
   "author": {
     "name": "Tufan Tunç",
     "email": "tufan.tunc.91@gmail.com",
-    "url": "tufantunc.com"
+    "url": "http://tufantunc.com"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tufantunc/in-memory-of-ataturk/issues"
   },
-  "homepage": "https://github.com/tufantunc/in-memory-of-ataturk#readme"
+  "homepage": "https://github.com/tufantunc/in-memory-of-ataturk#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.1.1"
+  }
 }

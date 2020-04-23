@@ -1,6 +1,6 @@
 {
   "name": "in-memory-of-ataturk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shows a quote from Ataturk after nodejs exit.",
   "main": "index.js",
   "engines": {

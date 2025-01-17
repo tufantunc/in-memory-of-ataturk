@@ -1,0 +1,8 @@
+{
+  "commit-message": {
+    "maxLength": 100,
+    "minLength": 10,
+    "pattern": "^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert)(\\([a-z\\-]+\\))?: [a-z].*$",
+    "patternError": "Commit messages must follow the Conventional Commits specification (https://www.conventionalcommits.org/).\n\nExamples:\nfeat: add new feature\nfix: resolve bug\ndocs: update README\nstyle: format code\nrefactor: restructure code\nperf: improve performance\ntest: add tests\nchore: update dependencies\nbuild: update build process\nci: update CI configuration\nrevert: revert previous commit\n\nOptionally, you can add a scope in parentheses:\nfeat(api): add new endpoint\nfix(ui): resolve layout issue"
+  }
+} 

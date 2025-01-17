@@ -1,4 +1,5 @@
 # in-memory-of-ataturk [![Build status](https://ci.appveyor.com/api/projects/status/f6a6mo6p8bxlprum?svg=true)](https://ci.appveyor.com/project/tufantunc/in-memory-of-ataturk) [![codecov](https://codecov.io/gh/tufantunc/in-memory-of-ataturk/branch/master/graph/badge.svg)](https://codecov.io/gh/tufantunc/in-memory-of-ataturk) [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![twitter][twitter-badge]][twitter]
+
 > Shows a quote from Ataturk after nodejs exit.
 
 ## Install
@@ -7,16 +8,42 @@ $ npm install --save-dev in-memory-of-ataturk
 ```
 
 ## Usage
-Just add and call it in your main app.
+
+### Basic Usage
+Just add and call it in your main app:
 ```js
-require('in-memory-of-ataturk')();
-```
-You can define language if you prefer. Default quote language is English.
-```js
-require('in-memory-of-ataturk')('tr');
+const { app } = require('in-memory-of-ataturk');
+app(); // Uses English quotes by default
 ```
 
-Currently supports English(en) and Turkish(tr) languages.
+### Language Selection
+You can specify the language (supports 'en' for English and 'tr' for Turkish):
+```js
+const { app } = require('in-memory-of-ataturk');
+app('tr'); // Uses Turkish quotes
+```
+
+### Getting Random Quotes Directly
+You can also use the `getRandomQuote` function to get quotes programmatically:
+```js
+const { getRandomQuote } = require('in-memory-of-ataturk');
+const quote = getRandomQuote('en'); // Get a random English quote
+console.log(quote);
+```
+
+### Error Handling
+The module includes proper error handling:
+```js
+try {
+    app('fr'); // Will throw an error for unsupported language
+} catch (error) {
+    console.error(error.message); // "Unsupported language: fr. Supported languages are: en, tr"
+}
+```
+
+## Supported Languages
+- English (en)
+- Turkish (tr)
 
 [npm-image]: https://img.shields.io/npm/v/in-memory-of-ataturk.svg
 [npm-url]: https://npmjs.org/package/in-memory-of-ataturk

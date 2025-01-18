@@ -20,11 +20,7 @@
     "kemal",
     "ataturk"
   ],
-  "author": {
-    "name": "Tufan Tunç",
-    "email": "tufan.tunc.91@gmail.com",
-    "url": "http://tufantunc.com"
-  },
+  "author": "Tufan Tunç <tufan.tunc.91@gmail.com> (http://tufantunc.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tufantunc/in-memory-of-ataturk/issues"
